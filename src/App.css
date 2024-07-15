@@ -1,0 +1,15 @@
+p {
+  display: flex;
+  gap: 4px;
+}
+
+.parant_div{
+  .ant-ribbon-wrapper{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    .ant-ribbon{
+      padding: 6px 16px !important;
+      box-shadow: 0 3px 3px -2px #646464;
+    }
+  }
+}
