@@ -19,7 +19,7 @@ const SingleCard = ({
   UpTo
 }) => {
   return (
-    <div className="md:w-[360px] w-[340px] rounded-md shadow-xl parant_div mb-4 md:mb-0">
+    <div className="md:w-[360px] w-[340px] rounded-2xl shadow-2xl parant_div mb-4 md:mb-0">
       {isBadge ? (
         <Badge.Ribbon text="Best Schema" color="#fe8112" className="mt-4">
           <div className={`p-6  bg-[${HBgColor}] text-[${HTextColor}]`}>
